@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanghai</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        width: 100%;
+        height: 80px;
+        background-color: #eb5c20;
+    }
+    .sh{
+        font-size: 30px;
+        font-family: "Gill Sans", sans-serif;
+        display: flex;
+        align-items: center;
+        height: 9vh;
+        margin-left: 30px;
+        color: #e4e0e0;
+    }
+    .nav{
+        display: flex;
+        float: left;
+    }
+    .nav{
+        display: flex;
+        margin-left: 70%;
+        margin-top: -50px;
+        
+    }
+    li{
+        list-style: none;
+        letter-spacing: 3px;
+        margin-left: 50px;
+        font-size: 21px;
+        font-weight: 500;
+    }
+    a{
+        text-decoration: none;
+        color: #323232;
+    }
+    .img-inc img{
+        width: 50%;
+        height: 50%;
+        float: left;
+    }
+    .p1l{
+        width: 100%;
+        height: 100%;
+    }
+    .p1ld{
+        font-size:0; /*去两个div间空隙*/
+    }
+    .inc-txt{
+        display: flex;
+        width: 100%;
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    .ljzt{
+        position: relative;
+        margin-left: 20%;
+        margin-top: -25%;
+        font-size: 32px;
+        color: #fbd83b;
+        font-weight: 600;
+    }
+    .wklt{
+        display: flex;
+        margin-left: 48%;
+        margin-top: -25%;
+        font-size: 32px;
+        color: #043253;
+        font-weight: 600;
+    }
+</style>
+<body>
+    <div class="main">
+        <span class="sh"><i>Shanghai</i></span>
+            <ul class="nav">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">介绍</a></li>
+                <li><a href="#">推荐</a></li>
+                <li><a href="#">游玩</a></li>
+            </ul>
+        </div>
+    <div class="p1ld"><img class="p1l" src="./img/login.jpg" alt=""></div>
+
+    <div class="img-inc">
+        <div class="p1"><a href=""><img src="./img/1.jpg" alt=""></a></div>
+        <div class="p2"><a href=""><img src="./img/4.jpg" alt=""></a></div>
+    </div>
+
+    <div class="inc-txt">
+            <span class="ljzt"><i>陆家嘴</i></span>
+            <span class="wklt"><i>武康路</i></span>
+    </div>
+</body>
+</html>
