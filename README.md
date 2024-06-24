@@ -1,1 +1,3 @@
-# shanghai
+# Shanghai Tourism
+# Developed by Roy
+# It's just a simple framework,in progress...
