@@ -5,102 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shanghai</title>
 </head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    .main{
-        width: 100%;
-        height: 80px;
-        background-color: #eb5c20;
-    }
-    .sh{
-        font-size: 30px;
-        font-family: "Gill Sans", sans-serif;
-        display: flex;
-        align-items: center;
-        height: 9vh;
-        margin-left: 30px;
-        color: #e4e0e0;
-    }
-    .nav{
-        display: flex;
-        float: left;
-    }
-    .nav{
-        display: flex;
-        margin-left: 70%;
-        margin-top: -50px;
-        
-    }
-    li{
-        list-style: none;
-        letter-spacing: 3px;
-        margin-left: 50px;
-        font-size: 21px;
-        font-weight: 500;
-    }
-    a{
-        text-decoration: none;
-        color: #323232;
-    }
-    .img-inc img{
-        width: 50%;
-        height: 50%;
-        float: left;
-    }
-    .p1l{
-        width: 100%;
-        height: 100%;
-    }
-    .p1ld{
-        font-size:0; /*去两个div间空隙*/
-    }
-    .inc-txt{
-        display: flex;
-        width: 100%;
-        height: 50px;
-        margin-top: 5px;
-    }
-
-    .ljzt{
-        position: relative;
-        margin-left: 20%;
-        margin-top: -25%;
-        font-size: 32px;
-        color: #fbd83b;
-        font-weight: 600;
-    }
-    .wklt{
-        display: flex;
-        margin-left: 48%;
-        margin-top: -25%;
-        font-size: 32px;
-        color: #043253;
-        font-weight: 600;
-    }
-</style>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #305079;
+        }
+        .scen{
+            display: flex;
+            align-items: center;
+            height: 100vh; 
+        }
+        .scen img{
+            display: flex;
+            position: relative;
+            width: 45%;
+            height: 55%;
+            margin-left: 17%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px; 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+        .login{
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-top: -41.2%;
+            margin-left: 62%;
+            width: 250px;
+            height: 455px;
+            background: #ffffff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+        .slogin{
+            display: flex;
+            align-items: center;
+            height: 15vh; 
+            font-size: 30px;
+            font-family: helvetica;
+            font-weight: 600;
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+        .username{
+            width: 200px;
+            height: 45px;
+            border: 1.5px solid rgb(195, 216, 224);
+            border-radius: 8px;
+            margin-left: 8%;
+            display: flex;
+            align-items: center;
+            color: #999999;
+            font-size: 15px;
+        }
+        .mail{
+            width: 200px;
+            height: 45px;
+            border: 1.5px solid rgb(195, 216, 224);
+            border-radius: 8px;
+            margin-left: 8%;
+            margin-top: 3%;
+            display: flex;
+            align-items: center;
+            color: #999999;
+            font-size: 15px;
+        }
+        .psw{
+            width: 200px;
+            height: 45px;
+            border: 1.5px solid rgb(195, 216, 224);
+            border-radius: 8px;
+            margin-left: 8%;
+            margin-top: 3%;
+            display: flex;
+            align-items: center;
+            color: #999999;
+            font-size: 15px;
+        }
+        .loginbtn button{
+            width: 100px;
+            height: 40px;
+            border: none;
+            border-radius: 8px;
+            background-color: #7cc9bf;
+            margin-left: 78px;
+            margin-top: 20px;
+        }
+        .loginbtn button a{
+            text-decoration: none;
+            color: #f6f4e8;
+            font-size: 18px;
+            font-weight: 500;  
+        }
+        .fgpsw{
+            font-size: 13px;
+            margin-top: 10px;
+            margin-left: 150px;
+            text-decoration: none;
+            color: black;
+        }
+        h1{
+            position: absolute;
+            text-align: center;
+            margin-left: 40%;
+            margin-top: 3%;
+            font-family: Helvetica;
+            
+            font-weight: 500;
+            color: #a9a9ad;
+        }
+    </style>
 <body>
-    <div class="main">
-        <span class="sh"><i>Shanghai</i></span>
-            <ul class="nav">
-                <li><a href="#">首页</a></li>
-                <li><a href="#">介绍</a></li>
-                <li><a href="#">推荐</a></li>
-                <li><a href="#">游玩</a></li>
-            </ul>
+    <h1>上海旅游网<br><i>Shanghai Tourism</i></h1>
+    <div class="sq">
+        <div class="scen"><img src="./img/login.jpg" alt=""></div>
+        <div class="login">
+            <span class="slogin">登陆</span>
+            <div class="username">用户名</div>
+            <div class="mail">邮箱</div>
+            <div class="psw">密码</div>
+            <a href="#" class="fgpsw">忘记密码？</a>
+            <div class="loginbtn"><button><a href="#">登录</a></button></div>
         </div>
-    <div class="p1ld"><img class="p1l" src="./img/login.jpg" alt=""></div>
-
-    <div class="img-inc">
-        <div class="p1"><a href=""><img src="./img/1.jpg" alt=""></a></div>
-        <div class="p2"><a href=""><img src="./img/4.jpg" alt=""></a></div>
-    </div>
-
-    <div class="inc-txt">
-            <span class="ljzt"><i>陆家嘴</i></span>
-            <span class="wklt"><i>武康路</i></span>
     </div>
 </body>
 </html>

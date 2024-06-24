@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanghai</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .home{
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        background-color: #eb5c20;
+    }
+    .sh{
+        font-size: 30px;
+        font-family: "Gill Sans", sans-serif;
+        display: flex;
+        align-items: center;
+        height: 9vh;
+        margin-left: 30px;
+        color: #e4e0e0;
+    }
+    .nav{
+        display: flex;
+        float: left;
+    }
+    .nav{
+        display: flex;
+        margin-left: 70%;
+        margin-top: -50px;
+        
+    }
+    li{
+        list-style: none;
+        letter-spacing: 3px;
+        margin-left: 50px;
+        font-size: 21px;
+        /* font-weight: 500; */
+    }
+    a{
+        text-decoration: none;
+        color: #323232;
+    }
+    a:hover{
+        font-weight: 800;
+    }
+    .p1l{
+        width: 100%;
+        height: 100%;
+    }
+    .p1ld{
+        font-size:0; /*去两个div间空隙*/
+    }
+    .inc-txt{
+        display: flex;
+        width: 100%;
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    .ljzt{
+        position: relative;
+        margin-left: 20%;
+        margin-top: -25%;
+        font-size: 32px;
+        color: #fbd83b;
+        font-weight: 600;
+    }
+    .wklt{
+        display: flex;
+        margin-left: 48%;
+        margin-top: -25%;
+        font-size: 32px;
+        color: #043253;
+        font-weight: 600;
+    }
+    .info-main{
+        display: flex;
+        flex-wrap: nowrap;
+        height: 180px;
+        margin-left: 14%;
+        background-repeat: repeat-x;
+    }
+    .info-main img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .info-t{
+        display: block;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-weight: 700;
+        text-decoration: underline;
+        text-decoration-thickness:5px;
+        text-decoration-color:#eb5c20;
+        
+    }
+    .info-main span{
+        font-size: 25px;
+        margin-left: 43%;
+        font-weight: 500;
+    }
+</style>
+<body>
+    <div class="home">
+        <span class="sh"><i>Shanghai</i></span>
+            <ul class="nav">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">介绍</a></li>
+                <li><a href="#">推荐</a></li>
+                <li><a href="#">游玩</a></li>
+            </ul>
+        </div>
+    <div class="p1ld"><img class="p1l" src="./img/login.jpg" alt=""></div>
+    <div class="info">
+        <span class="info-t">资讯</span>
+            <div class="info-main">
+
+                <div class="info-news">
+                    <a href=""><img src="./img/4.jpg" alt=""></a>
+                        <a href="">
+                            <span class="news">新闻</span>
+                        </a>
+                </div>
+
+                <div class="info-spe">
+                    <a href=""><img src="./img/2.jpg" alt=""></a>
+                        <a href="">
+                            <span class="special">专题</span>
+                        </a>
+                    
+                </div>
+
+                <div class="vdo"><a href="">
+                    <img src="./img/5.jpg" alt=""></a>
+                        <a href="">
+                            <span class="video">视频</span>
+                        </a>
+                </div>
+            </div>
+
+        </div>
+    <div class="ttd"></div>
+    <div class="svc"></div>
+</body>
+</html>
